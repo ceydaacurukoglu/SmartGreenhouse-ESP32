@@ -30,13 +30,14 @@ Geleneksel tarımda çevresel koşulların sürekli takip edilmesi zordur. Bu pr
 - **ESP32** (mikrodenetleyici)  
 - **DHT22** (sıcaklık ve nem sensörü)  
 - **LDR** (ışık sensörü)  
-- **Fan**
+- **Fan** 
 - **Pompa**
 - **LED** 
-- **LCD Ekran** (bilgilendirme için)  
+- **LCD Ekran** (bilgilendirme için)
+- **MQ-135** (Hava sensörü)
 - **Wokwi Online Simulator**
 
-##  Projenin Özeti
+## ✨ Projenin Özeti
 Bu proje kapsamında geliştirilen akıllı sera sistemi, temel çevresel parametreleri izleyerek bitki gelişimini destekleyen otomatik ve kullanıcı dostu bir çözüm sunmaktadır. Sistem; sıcaklık, nem, ışık şiddeti ve CO₂ seviyelerini algılayarak fan, pompa ve aydınlatma gibi donanımları otomatik ya da manuel olarak kontrol edebilmekte, ayrıca LCD ekran ve buzzer aracılığıyla kullanıcıyı bilgilendirmektedir.
 
 LDR sensörü sayesinde ortamdaki ışık durumu analiz edilmekte ve gün ışığı yetersizse LED aydınlatma devreye girmektedir. MQ-135 sensörü ile CO₂ seviyesi takip edilerek bitkilerin sağlıklı fotosentez yapabilmesi için gerekli havalandırma sağlanmakta, aşırı düşük CO₂ seviyelerinde sistem sesli uyarı vermektedir. DHT22 sensörü ile sıcaklık ve nem değerleri okunarak, bu değerlere bağlı olarak sulama pompası ve fan kontrolü gerçekleştirilmiştir. Tüm bu bilgiler I2C tabanlı LCD ekran üzerinde anlık olarak görüntülenmekte, bu da sistemin şeffaflığını ve kullanıcı etkileşimini artırmaktadır.
