@@ -51,8 +51,8 @@ Sonuç olarak geliştirilen akıllı sera sistemi; çevre koşullarına duyarlı
 ## 📂 Proje Dosyaları
 - `sketch.ino` → ESP32 için yazılan ana program kodu  
 - `diagram.json` → Devre şemasını tanımlayan Wokwi dosyası  
-- `wokwi.toml` → Wokwi proje ayarları  
-
+- `wokwi-project.txt` → Wokwi proje ayarları  
+- `libraries.txt` → Kütüphaneler
 ---
 
 ## 🖼️ Devre Şeması
