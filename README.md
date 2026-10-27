@@ -56,8 +56,6 @@ Sonuç olarak geliştirilen akıllı sera sistemi; çevre koşullarına duyarlı
 ---
 
 ## 🖼️ Devre Şeması
-Proje devre şeması Wokwi üzerinde oluşturulmuştur.  
-
-```markdown
+Proje devre şeması Wokwi üzerinde oluşturulmuştur. 
 <img width="834" height="666" alt="mikro" src="https://github.com/user-attachments/assets/3b620167-846a-41c0-94ce-41d93b7547c8" />
 
